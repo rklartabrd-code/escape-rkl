@@ -1,0 +1,18 @@
+# Build directories
+build/
+dist/
+
+# Native C build artifacts
+*.o
+*.a
+*.so
+*.exe
+
+# Emscripten intermediate files
+*.bc
+*.wasm.map
+
+# Editor and OS clutter
+.vscode/
+.DS_Store
+Thumbs.db
