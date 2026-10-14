@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escape from Rose Kennedy Lane — WASM Experiment</title>
+  <style>
+    body { background:#101923; color:#f0f4f8; font:16px system-ui,sans-serif; margin:2rem auto; padding:0 1rem; max-width:760px; }
+    canvas { display:block; width:100%; max-width:480px; height:auto; border:1px solid #8ca1b5; }
+    button { margin-top:1rem; padding:.5rem 1rem; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <h1>Escape from Rose Kennedy Lane</h1>
+  <p>First C/WebAssembly experiment. Use the arrow keys to move the yellow rectangle.</p>
+  <canvas id="game" width="480" height="320"></canvas>
+  <p id="status">Loading C/WebAssembly engine…</p>
+  <button id="reset">Reset (C)</button>
+  <script src="game-wasm.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
