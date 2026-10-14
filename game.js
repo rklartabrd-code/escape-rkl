@@ -22,7 +22,7 @@ function draw() {
 window.addEventListener('keydown', event => {
   if (!engine) return;
   const directions = {
-    ArrowLeft: [-10, 0], ArrowRight: [10, 0],
+    ArrowLeft: [-10, 0], ArrowRight: [40, 0],
     ArrowUp: [0, -10], ArrowDown: [0, 10]
   };
   const movement = directions[event.key];
