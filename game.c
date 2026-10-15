@@ -14,7 +14,7 @@ void game_move(int dx, int dy) {
     if (x < 0) x = 0;
     if (y < 0) y = 0;
     if (x > 440) x = 440;
-    if (y > 280) y = 280;
+    if (y > 280) y = 620;
 }
 
 EMSCRIPTEN_KEEPALIVE
